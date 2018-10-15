@@ -1,5 +1,5 @@
 body{
-    background-color: #eaeaea;
+    background-color: lightgray;
 }
 .body2{
     background-color: white;
@@ -132,7 +132,7 @@ header{
     grid-template-columns:2.5% 29% 29% 29%;
     box-sizing: border-box;
     grid-column-gap: 2em;
-    padding: 10px;
+    padding: 50px;
     
 }
 .last{
