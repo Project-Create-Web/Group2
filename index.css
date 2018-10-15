@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: rgb(233, 227, 227);
 }
 .body2{
     background-color: white;
@@ -36,12 +36,13 @@ header{
     font-family: Roboto;
     font-style: regular;
     line-height: 10px;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 2%;
     text-decoration: none;
     color: rgba(48, 52, 51, 0.7);
     cursor: pointer;
     margin-left:7 px;
+    
     
     
 }
@@ -61,7 +62,7 @@ header{
     font-family: Roboto;
     font-style: regular;
     line-height: 10px;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 2%;
     text-decoration: none;
     color: rgba(48, 52, 51, 0.7);
@@ -87,7 +88,7 @@ header{
     font-family: Roboto;
     font-style: regular;
     line-height: 10px;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 2%;
     text-decoration: none;
     color: rgba(48, 52, 51, 0.7);
@@ -113,7 +114,7 @@ header{
     font-family: Roboto;
     font-style: regular;
     line-height: 10px;
-    font-size: 20px;
+    font-size: 21px;
     letter-spacing: 2%;
     text-decoration: none;
     color: rgba(48, 52, 51, 0.7);
@@ -133,13 +134,19 @@ header{
     box-sizing: border-box;
     grid-column-gap: 2em;
     padding: 50px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     
 }
 .last{
     display: grid;
-    grid-template-columns: 30% 20% auto;
+    grid-template-columns: 25% 30% auto;
     padding-bottom: 30px;
     padding-top: 60px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 footer{
     display: grid;
@@ -155,48 +162,63 @@ footer{
 }
 .num1{
     display: grid;
-    grid-template-columns:10% 35% 40% ;
+    grid-template-columns:10% 38% 40% ;
     border: 3px solid whitesmoke;
     padding:10px ;
     margin-bottom:20px;
     margin-left:130px;
     margin-right: 130px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .num2{
     display: grid;
-    grid-template-columns:10% 35% 40% ;
+    grid-template-columns:10% 38% 40% ;
     border: 3px solid whitesmoke;
     padding:10px ;
     margin-bottom: 20px;
     margin-left:130px;
     margin-right: 130px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .num3{
     display: grid;
-    grid-template-columns:10% 35% 40% ;
+    grid-template-columns:10% 38% 40% ;
     border: 3px solid whitesmoke;
     padding:10px ;
     margin-bottom: 20px;
     margin-left:130px;
     margin-right: 130px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .num4{
     display: grid;
-    grid-template-columns:10% 35% 40% ;
+    grid-template-columns:10% 38% 40% ;
     border: 3px solid whitesmoke;
     padding:10px ;
     margin-bottom: 20px;
     margin-left:130px;
     margin-right: 130px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .roll1{
     display: grid;
     grid-template-columns:27% auto 27%;
     box-sizing: border-box;
     border: 1px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
     
 }
 .roll2{
@@ -205,6 +227,9 @@ footer{
     box-sizing: border-box;
     border:1px;
     padding-top: 40px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 .roll3{
     display: grid;
@@ -212,6 +237,9 @@ footer{
     grid-column-gap: 2em;
     box-sizing: border-box;
     border: 1px;
+    font-size: 1.05rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 
 }
 .strategic{
