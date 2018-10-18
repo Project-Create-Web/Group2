@@ -1,13 +1,19 @@
 body{
     background-color: rgb(233, 227, 227);
+    width: 1440px;
+    height: 100%;
+    margin: 0;
 }
 .body2{
     background-color: white;
+    width: 1440px;
+    height: 100%;
 }
 .container-grid{
     display: grid;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     box-sizing: border-box;
+    width: 1440px;
 
 }
 
@@ -16,19 +22,22 @@ header{
     grid-template-columns: 3% auto;
     border:1px solid white;
     padding: 20px;
-    z-index: 3;
-    position: fixed;
+    /* z-index: 3; */
+    /* position: fixed; */
     box-sizing: border-box;
-    background-color: white;
-    margin-top:-9.5px;
+    background-color:white;
+    /* margin-top:-9.5px; */
+    width: 1440px;
+    padding-bottom:30px;
     
-    
+ /* nav for index.html    */
 }
 .nav_menu{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: 1% 10% 15% 15% 23% 15%;
     box-sizing: border-box;
     padding-left: 445px;
+    width: 1440px;
 
 }
 .nav_menu a{
@@ -49,12 +58,13 @@ header{
 .nav_menu a:nth-child(2){
     color: #d8a235;
 }
-
+/* nav menu for service page */
 .nav_menu2{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: 1% 10% 15% 15% 23% 15%;
     box-sizing: border-box;
     padding-left: 445px;
+    width: 1440px;
 
 }
 .nav_menu2 a{
@@ -75,12 +85,13 @@ header{
     color: #d8a235;
 }
 
-
+/* nav menu for about/service page */
 .nav_menu3{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: 1% 10% 15% 15% 23% 15%;
     box-sizing: border-box;
     padding-left: 445px;
+    width: 1440px;
 
 }
 .nav_menu3 a{
@@ -101,12 +112,13 @@ header{
     color: #d8a235;
 }
 
-
+ /* nav menu for contact us page */
 .nav_menu4{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto ;
+    grid-template-columns: 1% 10% 15% 15% 23% 15%;
     box-sizing: border-box;
     padding-left: 445px;
+    width: 1440px;
 
 }
 .nav_menu4 a{
@@ -132,8 +144,8 @@ header{
     grid-template-rows: auto auto auto;
     /* background-image: url("image/cor.png"); */
     width: 1440px;
-    height: 472px;
-    margin-top: 140px;
+    height: 372px;
+    /* margin-top: 140px; */
     background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),  url("image/cor.png");
 }
 
@@ -144,8 +156,8 @@ header{
     font-size: 32px;
     letter-spacing: 15%;
     color: #ffffff;
-    margin-left: 250px;
-    margin-top: 145px;
+    margin-left: 240px;
+    margin-top: 110px;
 
 }
 .wonder1{
@@ -154,8 +166,8 @@ font-style: black;
 font-size: 100px;
 letter-spacing: 10%;
 color: #ffffff;
-margin-top:-110px;
-margin-left: 220px;
+margin-top:-75px;
+margin-left: 190px;
 }
 .wonder2{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -163,8 +175,8 @@ margin-left: 220px;
     font-size: 68px;
     letter-spacing: 28%;
     color: #ffffff;
-    margin-top: -180px;
-    margin-left:255px;
+    margin-top: -140px;
+    margin-left:220px;
 }
 .long{
     display: grid;
@@ -200,11 +212,13 @@ margin-left: 220px;
     display: grid;
     grid-template-rows: auto;
     background-image: url("image/bg-image.jpg");
+    opacity: 10%;
     width: 1440px;
     height: 304px;
     opacity: 10%;
-    margin-top: 140px;
-   /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), url("image/pro1.png") */
+    /* margin-top: 140px; */
+    background: linear-gradient(#242424d8,#242424d8),url("image/bg-image.jpg")
+   /* background: linear-gradient(rgba(48, 52, 51, 0.356), rgba(74, 100, 94, 0.925)), url("image/original.png") */
 
 }
 .gos{
@@ -401,7 +415,8 @@ button{
     width: 500px;
     color: white;
     margin-top: 58px;
-    background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)),  url("image/evi.png");
+    background: linear-gradient(#242424d8,#242424d8),url("image/backimg.png");
+    opacity: 10%;
 }
 .evidence h3{
     padding-bottom: 5%;
